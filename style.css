@@ -1,0 +1,208 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #1F2833;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.container-fluid {
+    background-color: #1F2833;
+    margin-top: -45px;
+    margin-left: 50px;
+  }
+
+.navbar-brand img{
+    width: 150px;
+    margin-top: -0px;
+}
+
+.navbar-nav{
+    margin-left: 57%;
+}
+
+.navbar-nav li{
+    margin-left: 25%;
+    color: #fff;
+}
+.navbar-nav li:hover{
+    background-color: #66FCF1;
+    font: black;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.home-content{
+    margin-left: 70px;
+    margin-top: 125px;
+}
+
+.home-content h1{
+    font-weight: bolder;
+}
+.home-content .button-home{
+    margin-top: 25px;
+    background-color: #66FCF1;
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 7px 10px 7px 10px; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+}
+.home-content .button-home:hover{
+    background-color: #fff;
+}
+
+.home-pic img{
+    width: 30%;
+    display: flex;
+    margin-top: -23%;
+    margin-left: 55%;
+}
+
+/********* About *********/
+.about{
+    margin-left: 5%;
+}
+.about-pic img{
+    width: 25%;
+    margin-left: 70px;
+    margin-top: -50 px;
+    float: left;
+}
+
+.about-content{
+    margin-left: 450px;
+    padding-right: 100px;
+}
+
+.about-content h1{
+    font-weight: bolder;
+    margin-bottom: 17px;
+}
+.about-content span{
+    padding-bottom: -15px;
+}
+.about-content .button-about{
+    margin-top: 15px;
+    background-color: #66FCF1;
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 7px 10px 7px 10px; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+.about-content .button-about:hover{
+    background-color: #fff;
+}
+
+/********** Contact **********/
+.contact .container{
+    margin-top: 8%;
+    text-align: center;
+}
+.contact .soc-med{
+    text-align: center;
+    margin-top: 8%;
+    
+}
+.contact .soc-med .fa{
+    padding: 2%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    .home-pic img{
+        width: 30%;
+        display: flex;
+        margin-top: -23%;
+        margin-left: 55%;
+    }
+      }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .home-pic img{
+        width: 40%;
+        display: flex;
+        margin-top: -23%;
+        margin-left: 65%;
+    }
+    .about-pic img{
+        width: 30%;
+        margin-left: 70px;
+        margin-top: -50 px;
+        float: left;
+    }
+
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .home-pic img{
+        width: 40%;
+        display: float;
+        margin-top: -5%;
+        margin-left: 35%;
+    }
+    .home-content{
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    .navbar-nav{
+        margin-left: -10px;
+    }
+    .about-pic img{
+        width: 40%;
+        margin-left: 70px;
+        margin-top: -50 px;
+        float: left;
+    }
+    .about-content{
+        padding-top: 25px;
+        margin-left: 55%;
+    }
+  }
+  .contact i{
+    font-size: 50px;
+    color: #66FCF1;
+  }
+  .contact a{
+    font-size: 50px;
+    color: #66FCF1;
+  }
+  /********** Extra small devices only **********/
+  @media (max-width: 767px){
+    .home-pic img{
+        width: 50%;
+        display: float;
+        margin-top: 1%;
+        margin-left: 30%;
+    }
+    .home-content{
+        margin-top: 25px;
+    }
+    .navbar-nav{
+        margin-left: 10px;
+    }
+    .about-pic img{
+        width: 40%;
+        float: none;
+        margin-left: 30%;
+    }
+    .about-content{
+        padding-top: 25px;
+        margin-left: 50px;
+        padding-right: 50px;
+    }
+    .about-content h1{
+        text-align: center;
+    }
+  }
+
+  
